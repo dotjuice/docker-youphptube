@@ -1,6 +1,6 @@
 #!/usr/bin/php -q
 <?php
-$installationVersion = '9.7';
+$installationVersion = '11.5';
 $p = getenv('DOMAIN_PROTOCOL') ?: 'http';
 $d = getenv('DOMAIN') ?: 'localhost';
 $s = getenv('SALT') ?: uniqid();
